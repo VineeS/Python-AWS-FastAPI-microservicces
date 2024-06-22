@@ -1,6 +1,8 @@
-wikipedia==1.4.0
-pytest==7.1.0
-pytest-cov==3.0.0
-pylint==2.13.0
-black==22.3.0
-fire==0.4.0
+wikipedia
+pytest
+pytest-cov
+pylint
+black
+fire
+fastapi
+uvicorn
