@@ -4,10 +4,10 @@ install:
 		pip install -r requirements.txt
 format:
 	#format test
-	black *.py
+	black *.py myLib/*.py
 lint:
 	#check syntax # flake8 and pylint
-	pylint --disable=R,C hello.py
+	pylint --disable=R,C *.py myLib/*.py
 test:
 	#test 
 	python -m pytest -vv test_hello.py
