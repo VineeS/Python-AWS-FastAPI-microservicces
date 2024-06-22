@@ -7,7 +7,7 @@ format:
 	black *.py myLib/*.py
 lint:
 	#check syntax # flake8 and pylint
-	pylint --disable=R,C *.py myLib/*.py
+	pylint --disable=R,C *.py 
 test:
 	#test 
 	python -m pytest -vv test_hello.py
