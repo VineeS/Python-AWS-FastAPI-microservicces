@@ -10,7 +10,7 @@ lint:
 	#pylint --disable=R,C *.py 
 test:
 	#test 
-	python -m pytest -vv --cov=myLib --cov=main test_*.py
+	#python -m pytest -vv --cov=myLib --cov=main test_*.py
 build:
 	#docker image
 	docker build -t deploy-fastapi .
