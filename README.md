@@ -1,0 +1,1 @@
+[![Python application test with GitHub Actions](https://github.com/VineeS/Python-AWS-FastAPI-microservicces/actions/workflows/aws.yml/badge.svg)](https://github.com/VineeS/Python-AWS-FastAPI-microservicces/actions/workflows/aws.yml)
