@@ -1,7 +1,4 @@
-from fastapi import FastAPI
 from fastapi.testclient import TestClient
-
-## this app is from main.py when we have defined app = FastAPI()
 from main import app
 
 client = TestClient(app)
